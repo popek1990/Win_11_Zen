@@ -1,0 +1,2 @@
+# Keep Windows line endings in the double-click launchers exactly as committed.
+*.cmd -text
