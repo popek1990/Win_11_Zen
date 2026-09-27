@@ -2,7 +2,8 @@
 
 **Debloat Windows 11 without breaking it.** Win11Zen turns off ads, tips, "suggestions" and personalisation tracking, cleans up the taskbar and Start menu, and can give you a clean, dock-style taskbar with Windhawk. No app removal, no admin rights, a backup before every change, and one-click undo.
 
-<!-- Add a before/after screenshot or GIF of your desktop here, e.g. ![Win11Zen desktop](docs/screenshot.png). It is the single best way to get stars. -->
+<img width="1911" height="971" alt="image" src="https://github.com/user-attachments/assets/029a423c-a1ff-4206-a682-8b27f2e340e1" />
+
 
 **Quick start:** click **Code > Download ZIP**, extract it, double-click **`Start.cmd`**, and type `Y`. To undo, double-click **`Undo.cmd`**.
 
