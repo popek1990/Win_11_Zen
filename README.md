@@ -13,7 +13,7 @@ cleans up the taskbar and Start menu, and can give you a dock-style taskbar with
 [![Windows 11 Home | Pro](https://img.shields.io/badge/Windows%2011-Home%20%7C%20Pro-0078D4)](#does-it-work-on-my-pc)
 [![PowerShell 5.1](https://img.shields.io/badge/PowerShell-5.1-5391FE)](Win11Zen.ps1)
 [![Admin rights: not needed](https://img.shields.io/badge/admin%20rights-not%20needed-2ea44f)](#safety-and-undo)
-[![GitHub stars](https://img.shields.io/github/stars/popek1990/Win_11_Zen?style=flat&color=yellow)](https://github.com/popek1990/Win_11_Zen/stargazers)
+[![Latest release](https://img.shields.io/github/v/release/popek1990/Win_11_Zen?color=0078D4)](https://github.com/popek1990/Win_11_Zen/releases/latest)
 [![Last commit](https://img.shields.io/github/last-commit/popek1990/Win_11_Zen)](https://github.com/popek1990/Win_11_Zen/commits/main)
 
 [Quick start](#quick-start) · [What it changes](#what-it-changes) · [Safety and undo](#safety-and-undo) · [Dock-style taskbar](#optional-dock-style-taskbar-with-windhawk) · [Troubleshooting](#troubleshooting) · [FAQ](#faq)
@@ -50,7 +50,7 @@ Win11Zen takes the careful route. It flips only switches you could flip yourself
 
 **You need:** Windows 11 Home or Pro on a personal PC. Nothing to install: it uses the PowerShell that comes with Windows.
 
-1. **[Download the ZIP](https://github.com/popek1990/Win_11_Zen/archive/refs/heads/main.zip)** and extract it (right-click > **Extract All**). Don't run it from inside the ZIP.
+1. **[Download the ZIP](https://github.com/popek1990/Win_11_Zen/archive/refs/heads/main.zip)** (or grab the [latest release](https://github.com/popek1990/Win_11_Zen/releases/latest)) and extract it (right-click > **Extract All**). Don't run it from inside the ZIP.
 2. Double-click **`Start.cmd`**. If Windows warns that the file came from the internet, choose **Run** (or **More info** > **Run anyway**). Don't use "Run as administrator"; the script refuses to run elevated.
 3. It tests itself on a temporary key, lists exactly what will change and asks **once**. Type `Y` and press Enter. Anything else cancels and nothing is changed.
 4. At the end it asks whether to install Windhawk for the [dock-style taskbar](#optional-dock-style-taskbar-with-windhawk). `Y` installs it, anything else skips.
@@ -58,7 +58,11 @@ Win11Zen takes the careful route. It flips only switches you could flip yourself
 
 **Undo at any time:** double-click **`Undo.cmd`** and answer `Y`.
 
-<!-- A short GIF of Start.cmd running (self-test, list of changes, one Y, summary) would go here. -->
+<p align="center">
+  <img src="assets/demo.gif" width="900" alt="Start.cmd running in a terminal: the self-test passes, 24 changes are listed, one Y applies them, and the summary shows the backup file and how to undo" />
+  <br>
+  <sub>Real <code>Start.cmd</code> output, recorded on a test registry key so all 24 recommended items show up as changes.</sub>
+</p>
 
 Prefer the terminal:
 
@@ -450,10 +454,6 @@ Out of scope on purpose: services, scheduled tasks, Group Policy, app removal, a
 ## License
 
 [MIT](LICENSE) © 2026 popek1990.eth
-
-## Star history
-
-[![Star History Chart](https://api.star-history.com/svg?repos=popek1990/Win_11_Zen&type=Date)](https://star-history.com/#popek1990/Win_11_Zen&Date)
 
 <div align="center">
 
